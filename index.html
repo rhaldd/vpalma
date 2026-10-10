@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Veronica Palma-Toyota Dagupan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="ov" id="ov" hidden>
+  <div class="dlg" role="dialog" aria-modal="true" aria-label="Phone options">
+    <p id="mNum"></p>
+    <a class="opt" id="oCall" href="#">Call</a>
+    <a class="opt" id="oSms" href="#">Message</a>
+    <a class="opt alt" id="oSave" href="contact.vcf">Add to Contacts</a>
+    <button class="opt cancel" id="oX" type="button">Cancel</button>
+  </div>
+</div>
+<div class="wrap"><main class="sheet">
+  <section class="cover">
+    <div class="nfc hero has-img" id="cardFront"><img class="pic" id="heroImg" src="images/toyota-dagupan.jpg" alt="Toyota Dagupan City dealership"></div>
+  </section>
+
+  <section class="id">
+    <div class="logo" id="logoBox" role="img" aria-label="Logo"></div>
+    <h1 id="name"></h1>
+    <p class="addr"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="7.500" r="4"/><path d="M4 21c0-4.400 3.600-7.500 8-7.500s8 3.100 8 7.500z"/></svg><span id="addr"></span></p>
+    <p class="bio" id="bio"></p>
+  </section>
+
+  <section class="panel" aria-labelledby="ph">
+    <h2 id="ph">Marketing Contact</h2>
+    <a class="row" id="rFb" href="#" target="_blank" rel="noopener"><span class="ico"><svg viewBox="0 0 24 24"><path transform="translate(.95 0)" d="M15 3h-2.500A3.500 3.500 0 0 0 9 6.500V9H6.500v3.500H9V21h3.500v-8.500H15l.6-3.500h-3.100V6.800c0-.5.3-.8.8-.8H15z"/></svg></span><div><b id="tFb">Facebook</b></div><svg class="go" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></a>
+    <a class="row" id="rCall" href="#"><span class="ico"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.500 1.500a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg></span><div><b id="tCall">Phone Number</b></div><svg class="go" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></a>
+    <a class="row" id="rMail" href="#"><span class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span><div><b id="tMail">Email</b></div><svg class="go" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></a>
+    <a class="row" id="rMap" href="#" target="_blank" rel="noopener"><span class="ico"><svg viewBox="0 0 24 24"><path d="M12 21s7-6 7-11a7 7 0 0 0-14 0c0 5 7 11 7 11z"/><circle cx="12" cy="10" r="2.500"/></svg></span><div><b id="tMap">Address</b></div><svg class="go" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></a>
+  </section>
+</main></div>
+
+<script src="script.js"></script>
+</body>
+</html>

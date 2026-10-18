@@ -3,7 +3,7 @@ const C={
   name:"Veronica Palma Galvan", dept:"Marketing Department", address:"Diversion Road, San Miguel, Calasiao Pangasinan",
   person:"Veronica Palma Galvan", org:"Toyota Dagupan City Inc.",
   bio:"Hi I am a certified Marketing Professional of Toyota Dagupan! I am ready and happy to serve Pangasinan!",
-  phone:"0916-518-961", email:"veronica.palma@toyotadagupan.com",
+  phone:"0916-518-9261", email:"veronica.palma@toyotadagupan.com",
   mapLink:"https://maps.app.goo.gl/darb4tgim12gCQac6", // paste your Google Maps link here (opens in the viewer's maps app)
   fbName:"Veronica Palma-Toyota Dagupan", // name shown on the Facebook row
   fb:"https://www.facebook.com/veronicapalmatoyotadagupan", // link it opens when tapped
